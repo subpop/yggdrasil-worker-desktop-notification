@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Yggdrasil Desktop Notifications
+Comment=Desktop notification worker for Yggdrasil
+Exec=@bindir@/yggdrasil-worker-desktop-notification
+Icon=org.gnome.Application
+Terminal=false
+Type=Application
+StartupNotify=true
+DBusActivatable=true
+X-GNOME-UsesNotifications=true
+Hidden=true
